@@ -1,11 +1,16 @@
 // [Créez un tableau initial nommé 'users' contenant quelques objets représentant des utilisateurs. Chaque objet doit avoir au moins un 'id', un 'name' et un 'email'. Ajoutez d'autres propriétés si vous le souhaitez.]
+
+// Déclare un tableau nommé 'users' contenant des objets représentant des utilisateurs
 let users = [
-    // [Exemple : { id: 1, name: "Alice", email: "alice@example.com" }]
-  ];
+  { id: 1, name: "Alice", email: "alice@example.com" },
+  { id: 2, name: "Bob", email: "bob@example.com" },
+];
+
   
   // [Fonction pour récupérer tous les utilisateurs. Retourne le tableau 'users'.]
   const getAllUsers = () => {
-    // [Ajoutez votre logique ici]
+    // Retourne le tableau 'users'
+    return users;
   };
   
   // [Fonction pour récupérer un utilisateur par son ID. Retourne l'utilisateur ou null s'il n'existe pas.]

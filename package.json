@@ -1,19 +1,35 @@
 {
-  "author": {
-    "name": "MonPremierLab"
-  },
+  "author": "MonPremierLab",
   "description": "Création d'une API REST avec Node.js et Express",
   "name": "manage-stock",
   "version": "1.0.0",
   "license": "Cet atelier est fourni gratuitement pour un usage éducatif. Toute redistribution doit inclure cette mention",
   "dependencies": {
-    "express": "^4.21.2",
-    "nodemon": "^3.1.9"
+    "express": "^4.21.2"
   },
-  "keywords": ["MonPremierLab", "Node.js", "Express"],
+  "keywords": [
+    "MonPremierLab",
+    "Node.js",
+    "Express"
+  ],
   "main": "src/app.js",
-  "scripts": {
+  "script": {
     "start": "node src/app.js",
     "dev": "nodemon src/app.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DREAMCE-TECH/Challenge-monPremierLab-manage-stock.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DREAMCE-TECH/Challenge-monPremierLab-manage-stock/issues"
+  },
+  "homepage": "https://github.com/DREAMCE-TECH/Challenge-monPremierLab-manage-stock#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   }
 }
